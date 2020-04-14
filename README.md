@@ -15,7 +15,7 @@ Wearable gadgets are flooding our markers and wearable computing has become the 
 
 30 volunteers within an age bracket of 19-48 years helped carry out the expreiments with six different activities wearing Samsung Galaxy S II phone on their waist. Dataset collected from 70% volunteers was selected for generating training data and 30% as test data. 
 
-A video experiment can be found at the this [link] ( https://www.youtube.com/watch?v=XOEN9W05_4A )
+A video experiment can be found at this [link](https://youtu.be/XOEN9W05_4A).
 
 
 ## Analysis
@@ -31,6 +31,6 @@ run_analysis.R file contains the code that analyzes dataset in the 5 steps as fo
 Code can be launched in any IDE that supports R. 
 
 ## Output
-tidyData.txt is the output of the final step
+
 
 
