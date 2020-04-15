@@ -1,6 +1,6 @@
 # Code Book
 
-The run_analysis.R file downloads dataset, prepares data, and follows the 5 steps required by the course project assignment. 
+The run_analysis.R file downloads dataset, prepares data, and follows the 5 steps as required by the course project assignment. 
 
 #### Download the dataset
    + Downloads the dataset a zip file.
@@ -8,7 +8,7 @@ The run_analysis.R file downloads dataset, prepares data, and follows the 5 step
 #### Unzip the dataset
    
 1. #### Reads dataset and assigns to variables
-   1.1. features: The features in this dataset collected from the embedded accelerometer and gyroscope in Samsung Galaxy SII smartphone. 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50 Hz was captured. (561 columns, 2 rows)
+   1.1. features: The features in this dataset is collected from the embedded accelerometer and gyroscope in Samsung Galaxy SII smartphone. 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50 Hz was captured. (561 columns, 2 rows)
    
    1.2. activities: List of activities performed (1. WALKING, 2. WALKING_UPSTAIRS, 3. WALKING_DOWNSTAIRS, 4. SITTING, 5. STANDING, 6.LAYING).
    (6 rows, 2 columns)
@@ -33,8 +33,11 @@ The run_analysis.R file downloads dataset, prepares data, and follows the 5 step
     + Extracts measurement on mean and standard deviation (std) features for each measurement in X_total. 
 
 3. #### Uses descriptive activity names to name the activities in the dataset
+     + Assigns column names to Y_total as "activityID".
 
 4. #### Appropriately labels the dataset with descriptive variable names.
+     + Assigns column names to X_total with respective features. 
+     + Assigns column names to sub_all as "subjectID"
     
 5. #### From the dataset in step 4, creates a second independent tidy dataset with the average of each variable for each  activity and each subject. 
     + tidy_data (180 rows, 81 columns) is created by grouping activity and each subject, and taking the mean of each variable. 
