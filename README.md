@@ -1,6 +1,5 @@
-# GettingAndCleaningData-Week4-Assignment
 
-# Peer-graded Assignment: Getting and Cleaning Data Course Project
+# Peer-graded Assignment: Getting and Cleaning Data Course Project (Week 4)
 
 This repository contains files for Coursera:Getting and Cleaning Data: Week4 Project. Files are listed as following:
 
