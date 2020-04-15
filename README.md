@@ -16,7 +16,7 @@ Wearable gadgets has become part of our life, which has resulted wearable comput
 
 A video experiment can be found at this [link](https://youtu.be/XOEN9W05_4A).
 
-Here is the [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) for the experiment.
+Here is the [dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) for the experiment.
 
 
 
@@ -31,6 +31,8 @@ The run_analysis.R script does the following
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 RStudio or R or any other IDE that supports R can be used to run_analysis.R script. 
+
+Deatails of the variables are elaborted in codebook.md file
 
 Second independent tidy data set creates in step 5 above is exported as txt file. 
 
