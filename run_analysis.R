@@ -82,7 +82,7 @@ tidy_data <- merged_dataset %>%
 #dim(tidy_data) #180,81
 
 
-#5: Exports writes tidy dataset as a txt file
+## Exports writes tidy dataset as a txt file
 write.table(tidy_data, "tidy_data.txt", row.name=FALSE, col.name=TRUE)
 
 
