@@ -10,11 +10,14 @@ This repository contains files for Coursera:Getting and Cleaning Data: Week4 Pro
 
 ## Introduction
 
-Wearable gadgets are flooding our markers and wearable computing has become the most exciting area in the data sience field. Manufacturers of these technologies are developing the most advanved algoriths to attract new users. run_analysis.R file contains the code that analyzes data collected with embedded accelrometer and gyroscope from the Samsung Galaxy S II smartphone. 
+Wearable gadgets has become part of our life, which has resulted wearable computing as the exciting area in the data sience field. Manufacturers of these technologies are developing the most advanved algorithms to attract new users. The run_analysis.R file contains the code that analyzes data collected with embedded accelerometer and gyroscope from the Samsung Galaxy S II smartphone. 
 
 30 volunteers within an age bracket of 19-48 years helped carry out the expreiments with six different activities wearing Samsung Galaxy S II phone on their waist. Dataset collected from 70% volunteers was selected for generating training data and 30% as test data. 
 
 A video experiment can be found at this [link](https://youtu.be/XOEN9W05_4A).
+
+Here is the [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) for the experiment.
+
 
 
 ## Analysis
