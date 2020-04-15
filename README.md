@@ -22,7 +22,7 @@ Here is the [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%
 
 ## Analysis
 
-run_analysis.R file contains the code that analyzes dataset in the 5 steps as following. 
+The run_analysis.R file contains the code that analyzes dataset in the 5 steps as following. 
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -30,9 +30,6 @@ run_analysis.R file contains the code that analyzes dataset in the 5 steps as fo
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Code can be launched in any IDE that supports R. 
-
-## Output
-
+RStudio or R or any other IDE that supports R can be used to run_analysis.R script. 
 
 
