@@ -1,13 +1,13 @@
 # Code Book
 
-The run_analysis.R file downloads dataset, prepares data, and follows the 5 steps as required by the course project assignment. 
+The run_analysis.R file downloads data set, prepares data, and follows the 5 steps as required by the course project assignment. 
 
 #### Download the dataset
    + Downloads the dataset a zip file.
    
 #### Unzip the dataset
    
-1. #### Reads dataset and assigns to variables
+1. #### Reads data set and assigns to variables
    1.1. features: The features in this dataset is collected from the embedded accelerometer and gyroscope in Samsung Galaxy SII smartphone. 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50 Hz was captured. (561 columns, 2 rows)
    
    1.2. activities: List of activities performed (1. WALKING, 2. WALKING_UPSTAIRS, 3. WALKING_DOWNSTAIRS, 4. SITTING, 5. STANDING, 6.LAYING).
@@ -35,17 +35,17 @@ The run_analysis.R file downloads dataset, prepares data, and follows the 5 step
 3. #### Uses descriptive activity names to name the activities in the dataset
      + Assigns column names to Y_total as "activityID".
 
-4. #### Appropriately labels the dataset with descriptive variable names.
+4. #### Appropriately labels the data set with descriptive variable names.
      + Assigns column names to X_total with respective features. 
      + Assigns column names to sub_all as "subjectID"
     
-5. #### From the dataset in step 4, creates a second independent tidy dataset with the average of each variable for each  activity and each subject. 
+5. #### From the data set in step 4, creates a second independent tidy data set with the average of each variable for each  activity and each subject. 
     + tidy_data (180 rows, 81 columns) is created by grouping activity and each subject, and taking the mean of each variable. 
     + Export tidy_data into tidy_data.txt file
     
 
     
-## Measurements of Tidy dataset
+## Measurements of Tidy data set
 
 
 1. "activityID"
